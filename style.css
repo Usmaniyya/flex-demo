@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: #002113;
+    font-family: 'Manrope', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+    
+}
+.container {
+    max-width: 1100px;
+}
+.navbar {
+    color: #fff;
+    height: 60px;
+    background: #027947;
+    padding: 1rem;
+}
+.navbar .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.navlist {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  
+}
+.navlist li {
+    padding-right: 2rem;
+}
+.main {
+    display: flex;
+    background: #003921;
+}
+.main .headings {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 30px;
+    color: #fff;
+    line-height: 1.5;
+    
+}
+.headings h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.headings p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.main img {
+    max-width: 500px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    flex: 1;
+    padding: 2rem 1rem;
+    border-radius: 1.2rem;
+    background:#027947;
+    color: #fff;
+    margin: 2rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);;
+
+}
+.box h2 {
+    margin-bottom: 1rem;
+}
+.footer {
+    text-align: center;
+    background: #003921;
+    padding: 1rem;
+}
+.footer p {
+    color: #fff;
+
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+}
